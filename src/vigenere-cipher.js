@@ -5,7 +5,7 @@ const Z_CODE = 90
 class VigenereCipheringMachine {
 
   constructor(isDirect) {
-    this.isDirect = isDirect ?? true
+    this.isDirect = isDirect === false ? false : true
   }
 
   // equalKeyword = 'alphon se alph'
